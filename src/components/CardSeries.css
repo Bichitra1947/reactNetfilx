@@ -1,0 +1,22 @@
+.card{
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2), 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+img{
+    width: 100%;
+    height: auto;
+}
+.card-contain{
+    padding: 3.2rem 1.2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+.card-hadding{
+    margin-bottom: 3.2 rem;
+}
+.superHit{
+    background-color: green;
+}
+.avargeHit{
+    background-color: yellow;
+}
