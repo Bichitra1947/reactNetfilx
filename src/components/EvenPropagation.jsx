@@ -14,7 +14,7 @@ export const EventPropagation=()=>{
         <>
         <section>
             <div className="g-div" onClick={grandParentDiv}>
-                <div className="p-div " onClick={ParentDiv}>
+                <div style={bg} className="p-div " onClick={ParentDiv}>
                     <button className="c-div btn btn-primary" type="button" onClick={childDiv} >
                         child div
                     </button>
