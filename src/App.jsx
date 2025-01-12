@@ -7,10 +7,10 @@ import { EventPropagation } from "./components/EvenPropagation";
 const App=()=>{
   return (
     <div className="container">
-      {/* <NetflixSeries/> */}
+      <NetflixSeries/>
       {/* <EventHandler/> */}
       {/* <EventProps></EventProps> */}
-      <EventPropagation></EventPropagation>
+      {/* <EventPropagation></EventPropagation> */}
     </div>
   )
 }
